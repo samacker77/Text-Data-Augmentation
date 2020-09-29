@@ -7,6 +7,9 @@ import random
 
 
 def augment(sentence,n):
+    '''
+    Returns n augmented form  of the given sentence
+    '''
     new_sentences = []
     words = word_tokenize(sentence)
     for i in range(n):
@@ -18,4 +21,4 @@ def augment(sentence,n):
 
 nsentences = augment("my new year resolution is to perfect many things as the main solution",10)
 for s in nsentences:
-    print s
+    print(s)
