@@ -3,6 +3,7 @@
 #libraries to be imported
 from nltk import word_tokenize
 from nltk.corpus import stopwords
+from nltk import sent_tokenize
 
 stoplist = stopwords.words('english')
 
